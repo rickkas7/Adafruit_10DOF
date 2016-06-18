@@ -12,17 +12,13 @@
   Written by Kevin Townsend for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
  ***************************************************************************/
-#if ARDUINO >= 100
- #include "Arduino.h"
-#else
- #include "WProgram.h"
-#endif
+#include "Particle.h"
 
-#include <Wire.h>
+// #include <Wire.h>
 #include <limits.h>
 #include <math.h>
 
-#include "Adafruit_10DOF.h"
+#include "Adafruit_10DOF_IMU/Adafruit_10DOF.h"
 
 #define PI  (3.14159265F);
 
